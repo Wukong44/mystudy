@@ -15,11 +15,6 @@ public class Guide_To_Java_Optional {
     public void test() {
         // Creating Optional Objects
         Optional<String> optional = Optional.empty();
-        System.out.println(optional.isPresent()); // false
-        System.out.println(optional.isPresent()); // false
-        System.out.println(optional.isPresent()); // false
-        System.out.println(optional.isPresent()); // false
-        System.out.println(optional.isPresent()); // false
     }
 
     @Test
