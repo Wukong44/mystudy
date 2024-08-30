@@ -32,8 +32,16 @@ public class Demo {
      */
     @Test
     public void test2() {
-        Integer m = 1;
-        Integer n = 1;
+        /**
+         *  int 赋值给 Integer会自动装箱，底层调用的valueOf()方法如下
+         * public static Integer valueOf(int i) {
+         *         if (i >= IntegerCache.low && i <= IntegerCache.high)
+         *             return IntegerCache.cache[i + (-IntegerCache.low)];
+         *         return new Integer(i);
+         *     }
+         */
+        Integer m = 1; // 等价于IntegerCache.cache[m + (-IntegerCache.low)]
+        Integer n = 1; // 等价于IntegerCache.cache[n + (-IntegerCache.low)]
         System.out.println(n == m); // true
 
         // 只缓存-128-127，其余值则是new，看源码
@@ -44,7 +52,6 @@ public class Demo {
         Integer i = new Integer(1);
         Integer j = new Integer(1);
         System.out.println(i == j); // false
-
     }
 
 
