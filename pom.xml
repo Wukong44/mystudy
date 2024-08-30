@@ -16,6 +16,7 @@
         <module>stream-demo</module>
         <module>string-demo</module>
         <module>optional_demo</module>
+        <module>temp-demo</module>
     </modules>
 
     <parent>

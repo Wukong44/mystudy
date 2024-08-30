@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="collection-study" />
         <module name="array-demo" />
+        <module name="temp-demo" />
         <module name="optional_demo" />
         <module name="stream-demo" />
         <module name="comm-demo" />
@@ -29,6 +30,7 @@
       <module name="optional_demo" options="-parameters" />
       <module name="stream-demo" options="-parameters" />
       <module name="string-demo" options="-parameters" />
+      <module name="temp-demo" options="-parameters" />
     </option>
   </component>
 </project>
