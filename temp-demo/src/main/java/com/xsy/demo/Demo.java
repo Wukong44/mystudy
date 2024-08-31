@@ -54,5 +54,17 @@ public class Demo {
         System.out.println(i == j); // false
     }
 
+    @Test
+    public void test3() {
+        // 只要有基本数据类型，则判断的就是值是否相等
+        Integer x = 127;
+        int y = 127;
+        System.out.println(x == y); // true
+
+        Integer a = 128;
+        int b = 128;
+        System.out.println(a == b); // true
+    }
+
 
 }
