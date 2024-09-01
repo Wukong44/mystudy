@@ -7,30 +7,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="collection-study" />
-        <module name="array-demo" />
-        <module name="temp-demo" />
+        <module name="exercise_demo" />
+        <module name="collection_study" />
+        <module name="string_demo" />
         <module name="optional_demo" />
-        <module name="stream-demo" />
-        <module name="comm-demo" />
-        <module name="string-demo" />
-        <module name="json-study" />
+        <module name="temp_demo" />
+        <module name="stream_demo" />
+        <module name="array_demo" />
+        <module name="comm_demo" />
+        <module name="json_study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="execise_demo" target="1.8" />
+      <module name="exercise_code" target="1.8" />
       <module name="jsonstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="array-demo" options="-parameters" />
-      <module name="collection-study" options="-parameters" />
-      <module name="comm-demo" options="-parameters" />
-      <module name="json-study" options="-parameters" />
+      <module name="array_demo" options="-parameters" />
+      <module name="collection_study" options="-parameters" />
+      <module name="comm_demo" options="-parameters" />
+      <module name="execise_demo" options="-parameters" />
+      <module name="exercise_code" options="-parameters" />
+      <module name="exercise_demo" options="-parameters" />
+      <module name="json_study" options="-parameters" />
       <module name="optional_demo" options="-parameters" />
-      <module name="stream-demo" options="-parameters" />
-      <module name="string-demo" options="-parameters" />
-      <module name="temp-demo" options="-parameters" />
+      <module name="stream_demo" options="-parameters" />
+      <module name="string_demo" options="-parameters" />
+      <module name="temp_demo" options="-parameters" />
     </option>
   </component>
 </project>

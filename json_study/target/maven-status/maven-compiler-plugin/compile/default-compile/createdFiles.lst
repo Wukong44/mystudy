@@ -1,0 +1,5 @@
+com\xsy\json\dto\Cat.class
+com\xsy\json\controller\JsonController.class
+com\xsy\json\dto\Person.class
+com\xsy\json\configs\JsonConfig.class
+com\xsy\json\Main.class

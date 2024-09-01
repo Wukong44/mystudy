@@ -9,14 +9,15 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>json-study</module>
-        <module>collection-study</module>
-        <module>array-demo</module>
-        <module>comm-demo</module>
-        <module>stream-demo</module>
-        <module>string-demo</module>
+        <module>json_study</module>
+        <module>collection_study</module>
+        <module>array_demo</module>
+        <module>comm_demo</module>
+        <module>stream_demo</module>
+        <module>string_demo</module>
         <module>optional_demo</module>
-        <module>temp-demo</module>
+        <module>temp_demo</module>
+        <module>exercise_demo</module>
     </modules>
 
     <parent>
@@ -57,11 +58,11 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.14.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.xsy</groupId>
-            <artifactId>comm-demo</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.xsy</groupId>-->
+<!--            <artifactId>comm_demo</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>
