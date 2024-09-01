@@ -66,5 +66,11 @@ public class Demo {
         System.out.println(a == b); // true
     }
 
+    // ----------------------------*^*--------------------------------
+
+    @Test
+    public void test4() {
+
+    }
 
 }
