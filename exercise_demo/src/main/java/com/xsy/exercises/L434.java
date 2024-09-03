@@ -10,6 +10,7 @@ public class L434 {
     public void test() {
         String s = "    foo    bar";
         System.out.println(countSegments(s));
+        System.out.println(countSegments2(s));
     }
 
     // 自解
